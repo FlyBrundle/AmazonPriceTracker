@@ -101,9 +101,9 @@ def main():
                 url = 'https://www.amazon.com/Google-Pixel-XL-Unlocked-Renewed/dp/B0824BR684/ref=sr_1_4?dchild=1&keywords=google+pixel&qid=1603376831&sr=8-4'
             )
             track.check_price(
-                send_email = 'mhoban16@gmail.com',
-                rec_email = 'mhoban16@gmail.com',
-                app_key = 'bfwqgnpwulyyuiuy'
+                send_email = #sender,
+                rec_email = '#recipient,
+                app_key = #your app key
             )
             # run every 10 mins
             sleep(60 * 10)
